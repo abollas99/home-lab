@@ -27,8 +27,9 @@ This repository is to describe my home lab. It will highlight what i currently a
 ###### Unfortunately, this is not an Omada switch, so it won’t be managed by an Omada controller. Consequently, it’s likely to be replaced in the future.
 
 ### Raspberry pi 3 B+
-- Currently Single DNS Server
-- Eventually will be backup DNS Server
+- DNS Server: I currently have it set up running as the primary and secondary DNS Server
+- Pi-Hole:
+- Future Plan: 
 
 # Whats to Come
 
