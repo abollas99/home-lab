@@ -9,19 +9,22 @@ This repository is to describe my home lab. It will highlight what i currently a
 # Current
 
 ### ThinkCentre
-My ThinkCentre at the top is running Proxmox VE. On Proxmox, I have three virtual machines: a Windows Server 2025 VM, a Windows 11 Pro VM, and an Ubuntu VM. This machine is primarily used as a lab. This is where i plan to experiment with windows Server and active directory since it is a popular tool in the IT world.
+- Proxmox: Proxmox, a tier 1 hypervisor, is the platform I selected to host virtual machines on this device. The virtual machines I’ve set up include Windows Server 2025, Windows 11 Pro, and Ubuntu. My primary objective is to experiment and gain knowledge.
+- Active Directory: The three virtual machines are intended for me to experiment with Active Directory and its ability to manage other devices, whether they are running Windows or Linux.
+- Windows Server 2025: Beyond Active Directory, I plan to dive deeper into its enterprise applications and familiarize myself with its tools.
 
 ### Mac Mini (M1)
-The Mac Mini beneath the ThinkCentre serves two purposes. Firstly, it will house my NAS, which currently functions as local storage. Secondly, it will host my PLEX media server. I intend to install a drive bay for this purpose. Currently, I’m considering the ORICO 2.5-inch USB-C docking station. This drive has the capability to daisy chain additional drive bays and boasts 5 Gbps transfer speeds, which surpasses the speed of my Mac’s Ethernet port. Additionally, I plan to run the drives in RAID 5 for enhanced redundancy.
+- NAS: I intend to set up a NAS to familiarize myself with its usage, configurations, and potential reasons for failure. 
+- Media Center (PLEX): The Media Center, primarily used for entertainment, allows me to access and watch movies and TV shows from my library.
 
 ### Omada ER605 V2 Router
-- VPN
-- VLAN
-- Router
+- VPN: I want to set up a VPN so that I can log into my network from anywhere and access my PLEX server without having to pay for the subscription.
+- VLAN: I set up a VLAN to segregate my printer and IoT devices, thereby enhancing the security of my network.
+- Router: Currently, I’m using a lab network, so I have to deal with the inconvenience of a dual NAT. Once I’ve perfected my network setup, it will replace the main router. This device allows me to create VLANs, works with Omada, and operates at Gigabit speeds.
 
 ### TP-Ling SG608E Switch
-- VLAN
-- Smart Managaed
+- VLAN: As a smart managed switch, this one allows me to set up VLANs.
+###### Unfortunately, this is not an Omada switch, so it won’t be managed by an Omada controller. Consequently, it’s likely to be replaced in the future.
 
 ### Raspberry pi 3 B+
 - Currently Single DNS Server
