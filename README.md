@@ -27,9 +27,9 @@ This repository is to describe my home lab. It will highlight what i currently a
 ###### Unfortunately, this is not an Omada switch, so it won’t be managed by an Omada controller. Consequently, it’s likely to be replaced in the future.
 
 ### Raspberry pi 3 B+
-- DNS Server: I currently have it set up running as the primary and secondary DNS Server
-- Pi-Hole:
-- Future Plan: 
+- DNS Server: I currently have it set up running as the primary and secondary DNS Server.
+- Pi-Hole: this it the tool i used to setup the DNS Server with openDNS
+- Future Plan: As i upgrade my Lab and get a better raspberry Pi i will set this pi as the secondary DNS and the new one as the Primary 
 
 # Whats to Come
 
@@ -40,9 +40,12 @@ This repository is to describe my home lab. It will highlight what i currently a
 ### Maybe Firewall Hardware
 
 ### Drive Bay
+- looking into the Orico 5 Drive bay on Amazon. It supports RAID and appears to be smaller which great for 10 inch server rack.
 
 ### Omada capable switch
+- might be considering a POE+ switch for future proofing. 
 
 ### Omada controller
+- Once i get more Omada hardware this will help me manage it all in one application
 
 ### Omada Access Point
