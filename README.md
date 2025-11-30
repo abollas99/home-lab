@@ -18,9 +18,9 @@ This repository is to describe my home lab. It will highlight what i currently a
 - Media Center (PLEX): The Media Center, primarily used for entertainment, allows me to access and watch movies and TV shows from my library.
 
 ### Omada ER605 V2 Router
-- VPN: I want to set up a VPN so that I can log into my network from anywhere and access my PLEX server without having to pay for the subscription.
+- VPN: I want to set up a VPN so that I can log into my network from anywhere and access my PLEX server without having to pay for the subscription. The VPN is setup with wireguard
 - VLAN: I set up a VLAN to segregate my printer and IoT devices, thereby enhancing the security of my network.
-- Router: Currently, I’m using a lab network, so I have to deal with the inconvenience of a dual NAT. Once I’ve perfected my network setup, it will replace the main router. This device allows me to create VLANs, works with Omada, and operates at Gigabit speeds.
+- Router: Currently, I’m using a lab network, so I have to deal with the inconvenience of a dual NAT. Once I’ve perfected my network setup, it will replace the main router. This device allows me to operates at Gigabit speeds.
 
 ### TP-Ling SG608E Switch
 - VLAN: As a smart managed switch, this one allows me to set up VLANs.
@@ -34,8 +34,9 @@ This repository is to describe my home lab. It will highlight what i currently a
 # Whats to Come
 
 ### Raspberry pi 5 (8gb)
-- Primary DNS
-- Maybe move VPN here
+- Primary DNS: Once i obtain this model i will use it to run as my primary DNS server and will swith my other Pi to the secondary DNS server. Ive seen methods to link both of them so that they have the same block lists. Ill look into it once i have this device.
+- I may also relocate my VPN server here.
+- I want to use it to display on a screen in my rack if one of my services goes down.
 
 ### Maybe Firewall Hardware
 
